@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.utils.data
 from torch_geometric.data import Data, Dataset
 from torch_geometric.data.data import size_repr
+
 # from torch_geometric.nn import global_add_pool, global_mean_pool
 from torch_geometric.nn import global_mean_pool
 from torch_scatter import scatter_sum
